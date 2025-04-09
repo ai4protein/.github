@@ -2,7 +2,7 @@ import requests
 from huggingface_hub import HfApi
 
 USERNAME = "AI4Protein"
-README_PATH = "README.md"
+README_PATH = "profile/README.md"
 
 def get_github_stats(username):
     repos_url = f"https://api.github.com/users/{username}/repos?per_page=100"

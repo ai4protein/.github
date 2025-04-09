@@ -6,7 +6,7 @@ from pathlib import Path
 
 # 用户配置
 HF_USERNAME = "AI4Protein"
-README_PATH = "README.md"
+README_PATH = "profile/README.md"
 MODEL_LOG_FILE = "log_model_download.txt"
 DATASET_LOG_FILE = "log_dataset_download.txt"
 PLOT_FILE = "hf_downloads_chart.png"
