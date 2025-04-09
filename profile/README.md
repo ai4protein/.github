@@ -14,4 +14,4 @@ The research content includes but is not limited to protein structure prediction
 
 ## 📈 Hugging Face Downloads Over Time
 
-<img src="hf_downloads_chart.png" alt="Download Chart" width="100%">
+<img src="../hf_downloads_chart.png" alt="Download Chart" width="100%">
