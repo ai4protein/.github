@@ -143,25 +143,11 @@ def get_downloads():
     
     return total_model_downloads, total_dataset_downloads
 
-def update_readme(model_downloads, dataset_downloads):
-    with open(README_PATH, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-
-    for i, line in enumerate(lines):
-        if "<!-- 🔄 total_hf_models -->" in line:
-            lines[i] = f"![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-{model_downloads}-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->\n"
-            print(f"lines[i]: {lines[i]}")
-        if "<!-- 🔄 total_hf_datasets -->" in line:
-            lines[i] = f"![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-{dataset_downloads}-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->\n"
-            print(f"lines[i]: {lines[i]}")
-    with open(README_PATH, "w", encoding="utf-8") as f:
-        f.writelines(lines)
 
 if __name__ == "__main__":
     model_dl, dataset_dl = get_hf_downloads(HF_USERNAME)
     log_downloads(model_dl, dataset_dl)
     model_downloads, dataset_downloads = get_downloads()
     print(f"model_downloads: {model_downloads}, dataset_downloads: {dataset_downloads}")
-    update_readme(model_downloads, dataset_downloads)
     draw_plot()
     print("✅ 下载量已记录并生成美化图表。")
