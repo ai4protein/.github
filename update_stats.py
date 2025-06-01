@@ -33,6 +33,6 @@ if __name__ == "__main__":
     try:
         stars, forks = get_github_stats(USERNAME)
         update_readme(stars, forks)
-        print(f"✅ Updated profile/README.md — Stars: {stars}, Forks: {forks}, Models: {model_downloads}, Datasets: {dataset_downloads}")
+        print(f"✅ Updated profile/README.md — Stars: {stars}, Forks: {forks}")
     except Exception as e:
         print(f"❌ Error: {e}")
