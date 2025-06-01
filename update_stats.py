@@ -16,16 +16,7 @@ def get_github_stats(username):
     total_forks = sum(repo["forks_count"] for repo in repos)
     return total_stars, total_forks
 
-def get_huggingface_downloads(username):
-    api = HfApi()
-    models = api.list_models(author=username)
-    datasets = api.list_datasets(author=username)
-
-    model_downloads = sum(m.downloads for m in models)
-    dataset_downloads = sum(d.downloads for d in datasets)
-    return model_downloads, dataset_downloads
-
-def update_readme(stars, forks, model_downloads, dataset_downloads):
+def update_readme(stars, forks):
     with open(README_PATH, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
@@ -41,8 +32,7 @@ def update_readme(stars, forks, model_downloads, dataset_downloads):
 if __name__ == "__main__":
     try:
         stars, forks = get_github_stats(USERNAME)
-        model_downloads, dataset_downloads = get_huggingface_downloads(USERNAME)
-        update_readme(stars, forks, model_downloads, dataset_downloads)
+        update_readme(stars, forks)
         print(f"✅ Updated profile/README.md — Stars: {stars}, Forks: {forks}, Models: {model_downloads}, Datasets: {dataset_downloads}")
     except Exception as e:
         print(f"❌ Error: {e}")

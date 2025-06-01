@@ -160,6 +160,7 @@ if __name__ == "__main__":
     model_dl, dataset_dl = get_hf_downloads(HF_USERNAME)
     log_downloads(model_dl, dataset_dl)
     model_downloads, dataset_downloads = get_downloads()
+    print(f"model_downloads: {model_downloads}, dataset_downloads: {dataset_downloads}")
     update_readme(model_downloads, dataset_downloads)
     draw_plot()
     print("✅ 下载量已记录并生成美化图表。")
