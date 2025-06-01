@@ -150,9 +150,10 @@ def update_readme(model_downloads, dataset_downloads):
     for i, line in enumerate(lines):
         if "<!-- 🔄 total_hf_models -->" in line:
             lines[i] = f"![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-{model_downloads}-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->\n"
+            print(f"lines[i]: {lines[i]}")
         if "<!-- 🔄 total_hf_datasets -->" in line:
             lines[i] = f"![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-{dataset_downloads}-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->\n"
-
+            print(f"lines[i]: {lines[i]}")
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.writelines(lines)
 
