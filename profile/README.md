@@ -2,8 +2,8 @@
 
 ![Total Stars](https://img.shields.io/badge/Stars-775-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
 ![Total Forks](https://img.shields.io/badge/Forks-81-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
-![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-187,305-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
-![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-65,295-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
+![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-189,766-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
+![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-68,792-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
 
 Research on protein-directed modification and redesign based on artificial intelligence technology.  
 The research content includes but is not limited to protein structure prediction and optimization, protein-directed modification, and design.
