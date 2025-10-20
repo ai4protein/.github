@@ -1,7 +1,7 @@
 # Hi, there is [Liang's Lab](https://ins.sjtu.edu.cn/people/lhong/index.html) 👋
 
-![Total Stars](https://img.shields.io/badge/Stars-788-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
-![Total Forks](https://img.shields.io/badge/Forks-86-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
+![Total Stars](https://img.shields.io/badge/Stars-789-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
+![Total Forks](https://img.shields.io/badge/Forks-87-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
 ![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-189,766-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
 ![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-68,792-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
 
