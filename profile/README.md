@@ -9,7 +9,7 @@ Research on protein-directed modification and redesign based on artificial intel
 The research content includes but is not limited to protein structure prediction and optimization, protein-directed modification, and design.
 
 ## 🤖 Online AI Tools
-- 2025.08:  🎉 VenusFactory releases a **free** website at [venusfactory.cn](http://venusfactory.cn/).
+- 2025.08:  🎉 VenusFactory releases a **free** website at [venusfactory.cn/playground]([http://venusfactory.cn/](http://venusfactory.cn/playground/)).
 
 ## 🎈 Recent Papers
 - [VenusFactory: An Integrated System for Protein Engineering with Data Retrieval and Language Model Fine-Tuning](https://aclanthology.org/2025.acl-demo.23/). *ACL Demo*, 2025.
